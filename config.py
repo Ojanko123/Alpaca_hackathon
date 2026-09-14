@@ -14,7 +14,7 @@ load_dotenv()  # reads .env in the project root if present, doesn't overwrite re
 
 
 # ---------------------------------------------------------------------------
-# Alpaca API credentials (set these as environment variables, do not hardcode)
+# Alpaca API credentials 
 # ---------------------------------------------------------------------------
 ALPACA_API_KEY = os.environ.get("ALPACA_API_KEY", "")
 ALPACA_SECRET_KEY = os.environ.get("ALPACA_SECRET_KEY", "")
