@@ -4,7 +4,7 @@
 An autonomous options pairs-trading agent built for the **Alpaca AI Trading
 Agents Hackathon**. It finds statistically cointegrated S&P 500 stocks,
 trades divergence in their price relationship through defined-risk options
-spreads, and enforces tested risk controls throughout — position sizing,
+spreads, and enforces tested risk controls throughout - position sizing,
 stop-loss, take-profit, drawdown circuit-breakers, and concentration limits.
 
 Full write-up: see `writeup.pdf`
@@ -51,7 +51,7 @@ python main.py               # run the daily entry/exit cycle
 python main.py --risk-check  # run the frequent drawdown/take-profit check
 ```
 
-In production this runs on a schedule via Windows Task Scheduler — see
+In production this runs on a schedule via Windows Task Scheduler - see
 `documentation.pdf` for the full setup.
 
 ## Built in public
